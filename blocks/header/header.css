@@ -2,9 +2,19 @@
   height: 100vh;
   min-height: 600px;
   max-height: 756px;
-  /* выше установили ограничения для секции */
   display: flex;
   overflow: hidden;
   background-color: #f2f2f2;
   position: relative;
+}
+
+.header::after {
+  content: '';
+  height: 568px;
+  width: 568px;
+  background-color: #2f80ed;
+  position: absolute;
+  top: 64px;
+  right: 0;
+  animation: rotation 20s linear infinite;
 }
