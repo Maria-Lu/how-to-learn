@@ -3,4 +3,11 @@
   background-repeat: no-repeat;
   background-position: center;
   width: 183px;
+  text-decoration: none;
+  transition: opacity .5s ease-in;
 }
+
+.logo:hover {
+  opacity: .5;
+  cursor: pointer;
+  }

@@ -12,7 +12,7 @@
       <a class="logo logo_place_header" href="https://praktikum.yandex.ru/" target="_blank"></a>
       <h1 class="header__title">Научиться учиться</h1>
       <p class="header__subtitle">Какие современные и эффективные подходы к обучению вы можете
-        использовать в своей жизни? <a class="header__link link" href="#">Узнать &rarr;</a></p>
+        использовать в своей жизни? <a class="header__link" href="#">Узнать &rarr;</a></p>
       <div class="header__main-illustration"></div>
       <div class="header__square-pic rotation"></div>
     </header>
@@ -67,10 +67,14 @@
       <section class="video">
         <h2 class="section-title">Видео нa TED</h2>
         <p class="section-subtitle">Для тех, кто любит прокрастинировать</p>
-        <div class="video__iframes">
-          <iframe class="video__iframe" src="https://www.youtube.com/embed/5MgBikgcWnY" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-          <iframe class="video__iframe" src="https://www.youtube.com/embed/arj7oStGLkU" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        </div>
+        <ul class="video__iframes">
+          <li class="video__iframes-item">
+            <iframe class="video__iframe" src="https://www.youtube.com/embed/5MgBikgcWnY" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </li>
+          <li class="video__iframes-item">
+            <iframe class="video__iframe" src="https://www.youtube.com/embed/arj7oStGLkU" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </li>
+        </ul>
       </section>
       <section class="oakley">
         <article class="two-columns">
@@ -87,7 +91,7 @@
       <section class="feynman">
         <h2 class="feynman__title">Метод Фейнмана</h2>
         <p class="feynman__subtitle">Выучить и не забыть.</p>
-        <a class="feynman__link link" href="https://medium.com/personal-growth/the-secret-algorithm-behind-learning-7c6f4eb702df" target="_blank">Подробнее &rarr;</a>
+        <a class="feynman__link" href="https://medium.com/personal-growth/the-secret-algorithm-behind-learning-7c6f4eb702df" target="_blank">Подробнее &rarr;</a>
       </section>
       <section class="digits">
         <h2 class="section-title">Цифры и факты</h2>
@@ -197,22 +201,22 @@
         <p class="section-subtitle">Больше материалов о техниках и лайфхаках обучения</p>
         <ul class="resources__logo-zone">
           <li class="resources__logo-zone-item">
-            <a class="resources__logo-link link" href="https://arzamas.academy/" target="_blank">
+            <a class="resources__logo-link" href="https://arzamas.academy/" target="_blank">
               <img class="resources__logo" src="./images/resources/resources-arzamas.svg" alt="Логотип образовательного проекта об истории культуры Arzamas.academy">
             </a>
           </li>
           <li class="resources__logo-zone-item">
-            <a class="resources__logo-link link" href="https://nplus1.ru/" target="_blank">
+            <a class="resources__logo-link" href="https://nplus1.ru/" target="_blank">
               <img class="resources__logo" src="./images/resources/resources-n1.svg" alt="Логотип научно-поплуярного развлекательного издания N+1">
             </a>
           </li>
           <li class="resources__logo-zone-item">
-            <a class="resources__logo-link link" href="https://strelka.com/ru" target="_blank">
+            <a class="resources__logo-link" href="https://strelka.com/ru" target="_blank">
               <img class="resources__logo" src="./images/resources/resources-strelka.svg" alt="Логотип института медиа, архитектуры и дизайна Стрелка">
             </a>
           </li>
           <li class="resources__logo-zone-item">
-            <a class="resources__logo-link link" href="https://polka.academy/" target="_blank">
+            <a class="resources__logo-link" href="https://polka.academy/" target="_blank">
               <img class="resources__logo" src="./images/resources/resources-polka.svg" alt="Логотип образовательного проекта о самых важных произведениях русской литературы Полка">
             </a>
           </li>
@@ -228,22 +232,22 @@
         <nav class="footer__column footer__column_content_info">
           <h3 class="footer__column-heading">О Практикуме</h3>
           <ul class="footer__column-links">
-            <li class="footer__column-links-item"><a class="footer__column-link link" href="https://praktikum.yandex.ru/" target="_blank">Главная</a></li>
-            <li class="footer__column-links-item"><a class="footer__column-link link" href="https://yandex.ru/support/praktikum/" target="_blank">Концепция</a></li>
-            <li class="footer__column-links-item"><a class="footer__column-link link" href="https://yandex.ru/support/praktikum/mentors.html" target="_blank">Наставники</a></li>
+            <li class="footer__column-links-item"><a class="footer__column-link" href="https://praktikum.yandex.ru/" target="_blank">Главная</a></li>
+            <li class="footer__column-links-item"><a class="footer__column-link" href="https://yandex.ru/support/praktikum/" target="_blank">Концепция</a></li>
+            <li class="footer__column-links-item"><a class="footer__column-link" href="https://yandex.ru/support/praktikum/mentors.html" target="_blank">Наставники</a></li>
           </ul>
         </nav>
         <nav class="footer__column footer__column_content_social">
           <h3 class="footer__column-heading">Соцсети</h3>
           <ul class="footer__column-links">
             <li class="footer__column-links-item">
-              <a class="footer__column-link link" href="https://www.facebook.com/yandex.praktikum/" target="_blank">
+              <a class="footer__column-link" href="https://www.facebook.com/yandex.praktikum/" target="_blank">
                 <img class="footer__social-icon" src="./images/footer/facebook_color_white.svg" alt="Иконка Facebook">Facebook</a></li>
             <li class="footer__column-links-item">
-              <a class="footer__column-link link" href="https://vk.com/yandex.praktikum" target="_blank">
+              <a class="footer__column-link" href="https://vk.com/yandex.praktikum" target="_blank">
                 <img class="footer__social-icon" src="./images/footer/vk_color_white.svg" alt="Иконка ВКонтакте">ВКонтакте</a></li>
             <li class="footer__column-links-item">
-              <a class="footer__column-link link" href="https://www.instagram.com/yndx.praktikum/" target="_blank">
+              <a class="footer__column-link" href="https://www.instagram.com/yndx.praktikum/" target="_blank">
                 <img class="footer__social-icon" src="./images/footer/instagram_color_white.svg" alt="Иконка Instagram">Instagram</a>
             </li>
           </ul>

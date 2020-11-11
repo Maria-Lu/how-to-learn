@@ -1,9 +1,9 @@
-.link {
+.resources__logo-link {
   text-decoration: none;
   transition: opacity .5s ease-in;
 }
 
-.link:hover {
+.resources__logo-link:hover {
   opacity: .5;
   cursor: pointer;
   }

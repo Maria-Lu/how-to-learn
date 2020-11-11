@@ -3,4 +3,11 @@
   line-height: 30px;
   font-size: 18px;
   font-weight: normal;
+  text-decoration: none;
+  transition: opacity .5s ease-in;
 }
+
+.footer__column-link:hover {
+  opacity: .5;
+  cursor: pointer;
+  }
